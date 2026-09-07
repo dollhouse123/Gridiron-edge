@@ -1,0 +1,14 @@
+{
+  "source": "nflverse",
+  "updated_at": "1970-01-01T00:00:00+00:00",
+  "seasons_loaded": [],
+  "players": {
+    "gibbs": [],
+    "goff": [],
+    "amon": [],
+    "allen": []
+  },
+  "errors": [
+    "Waiting for first GitHub Actions refresh"
+  ]
+}
