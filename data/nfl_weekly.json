@@ -1,14 +1,825 @@
 {
   "source": "nflverse",
-  "updated_at": "1970-01-01T00:00:00+00:00",
-  "seasons_loaded": [],
+  "updated_at": "2026-09-07T18:05:24.188052+00:00",
+  "seasons_loaded": [
+    2024,
+    2025
+  ],
   "players": {
-    "gibbs": [],
-    "goff": [],
-    "amon": [],
-    "allen": []
+    "gibbs": [
+      {
+        "season": 2024,
+        "week": 1,
+        "opp": "LA",
+        "v": 40.0
+      },
+      {
+        "season": 2024,
+        "week": 2,
+        "opp": "TB",
+        "v": 84.0
+      },
+      {
+        "season": 2024,
+        "week": 3,
+        "opp": "ARI",
+        "v": 83.0
+      },
+      {
+        "season": 2024,
+        "week": 4,
+        "opp": "SEA",
+        "v": 78.0
+      },
+      {
+        "season": 2024,
+        "week": 6,
+        "opp": "DAL",
+        "v": 63.0
+      },
+      {
+        "season": 2024,
+        "week": 7,
+        "opp": "MIN",
+        "v": 116.0
+      },
+      {
+        "season": 2024,
+        "week": 8,
+        "opp": "TEN",
+        "v": 127.0
+      },
+      {
+        "season": 2024,
+        "week": 9,
+        "opp": "GB",
+        "v": 65.0
+      },
+      {
+        "season": 2024,
+        "week": 10,
+        "opp": "HOU",
+        "v": 71.0
+      },
+      {
+        "season": 2024,
+        "week": 11,
+        "opp": "JAX",
+        "v": 69.0
+      },
+      {
+        "season": 2024,
+        "week": 12,
+        "opp": "IND",
+        "v": 90.0
+      },
+      {
+        "season": 2024,
+        "week": 13,
+        "opp": "CHI",
+        "v": 87.0
+      },
+      {
+        "season": 2024,
+        "week": 14,
+        "opp": "GB",
+        "v": 43.0
+      },
+      {
+        "season": 2024,
+        "week": 15,
+        "opp": "BUF",
+        "v": 31.0
+      },
+      {
+        "season": 2024,
+        "week": 16,
+        "opp": "CHI",
+        "v": 109.0
+      },
+      {
+        "season": 2024,
+        "week": 17,
+        "opp": "SF",
+        "v": 117.0
+      },
+      {
+        "season": 2024,
+        "week": 18,
+        "opp": "MIN",
+        "v": 139.0
+      },
+      {
+        "season": 2025,
+        "week": 1,
+        "opp": "GB",
+        "v": 19.0
+      },
+      {
+        "season": 2025,
+        "week": 2,
+        "opp": "CHI",
+        "v": 94.0
+      },
+      {
+        "season": 2025,
+        "week": 3,
+        "opp": "BAL",
+        "v": 67.0
+      },
+      {
+        "season": 2025,
+        "week": 4,
+        "opp": "CLE",
+        "v": 91.0
+      },
+      {
+        "season": 2025,
+        "week": 5,
+        "opp": "CIN",
+        "v": 54.0
+      },
+      {
+        "season": 2025,
+        "week": 6,
+        "opp": "KC",
+        "v": 65.0
+      },
+      {
+        "season": 2025,
+        "week": 7,
+        "opp": "TB",
+        "v": 136.0
+      },
+      {
+        "season": 2025,
+        "week": 9,
+        "opp": "MIN",
+        "v": 25.0
+      },
+      {
+        "season": 2025,
+        "week": 10,
+        "opp": "WAS",
+        "v": 142.0
+      },
+      {
+        "season": 2025,
+        "week": 11,
+        "opp": "PHI",
+        "v": 39.0
+      },
+      {
+        "season": 2025,
+        "week": 12,
+        "opp": "NYG",
+        "v": 219.0
+      },
+      {
+        "season": 2025,
+        "week": 13,
+        "opp": "GB",
+        "v": 68.0
+      },
+      {
+        "season": 2025,
+        "week": 14,
+        "opp": "DAL",
+        "v": 43.0
+      },
+      {
+        "season": 2025,
+        "week": 15,
+        "opp": "LA",
+        "v": 38.0
+      },
+      {
+        "season": 2025,
+        "week": 16,
+        "opp": "PIT",
+        "v": 2.0
+      },
+      {
+        "season": 2025,
+        "week": 17,
+        "opp": "MIN",
+        "v": 41.0
+      },
+      {
+        "season": 2025,
+        "week": 18,
+        "opp": "CHI",
+        "v": 80.0
+      }
+    ],
+    "goff": [
+      {
+        "season": 2024,
+        "week": 1,
+        "opp": "LA",
+        "v": 217.0
+      },
+      {
+        "season": 2024,
+        "week": 2,
+        "opp": "TB",
+        "v": 307.0
+      },
+      {
+        "season": 2024,
+        "week": 3,
+        "opp": "ARI",
+        "v": 199.0
+      },
+      {
+        "season": 2024,
+        "week": 4,
+        "opp": "SEA",
+        "v": 292.0
+      },
+      {
+        "season": 2024,
+        "week": 6,
+        "opp": "DAL",
+        "v": 315.0
+      },
+      {
+        "season": 2024,
+        "week": 7,
+        "opp": "MIN",
+        "v": 280.0
+      },
+      {
+        "season": 2024,
+        "week": 8,
+        "opp": "TEN",
+        "v": 85.0
+      },
+      {
+        "season": 2024,
+        "week": 9,
+        "opp": "GB",
+        "v": 145.0
+      },
+      {
+        "season": 2024,
+        "week": 10,
+        "opp": "HOU",
+        "v": 240.0
+      },
+      {
+        "season": 2024,
+        "week": 11,
+        "opp": "JAX",
+        "v": 412.0
+      },
+      {
+        "season": 2024,
+        "week": 12,
+        "opp": "IND",
+        "v": 269.0
+      },
+      {
+        "season": 2024,
+        "week": 13,
+        "opp": "CHI",
+        "v": 221.0
+      },
+      {
+        "season": 2024,
+        "week": 14,
+        "opp": "GB",
+        "v": 283.0
+      },
+      {
+        "season": 2024,
+        "week": 15,
+        "opp": "BUF",
+        "v": 494.0
+      },
+      {
+        "season": 2024,
+        "week": 16,
+        "opp": "CHI",
+        "v": 336.0
+      },
+      {
+        "season": 2024,
+        "week": 17,
+        "opp": "SF",
+        "v": 303.0
+      },
+      {
+        "season": 2024,
+        "week": 18,
+        "opp": "MIN",
+        "v": 231.0
+      },
+      {
+        "season": 2025,
+        "week": 1,
+        "opp": "GB",
+        "v": 225.0
+      },
+      {
+        "season": 2025,
+        "week": 2,
+        "opp": "CHI",
+        "v": 334.0
+      },
+      {
+        "season": 2025,
+        "week": 3,
+        "opp": "BAL",
+        "v": 202.0
+      },
+      {
+        "season": 2025,
+        "week": 4,
+        "opp": "CLE",
+        "v": 168.0
+      },
+      {
+        "season": 2025,
+        "week": 5,
+        "opp": "CIN",
+        "v": 258.0
+      },
+      {
+        "season": 2025,
+        "week": 6,
+        "opp": "KC",
+        "v": 203.0
+      },
+      {
+        "season": 2025,
+        "week": 7,
+        "opp": "TB",
+        "v": 241.0
+      },
+      {
+        "season": 2025,
+        "week": 9,
+        "opp": "MIN",
+        "v": 284.0
+      },
+      {
+        "season": 2025,
+        "week": 10,
+        "opp": "WAS",
+        "v": 320.0
+      },
+      {
+        "season": 2025,
+        "week": 11,
+        "opp": "PHI",
+        "v": 255.0
+      },
+      {
+        "season": 2025,
+        "week": 12,
+        "opp": "NYG",
+        "v": 279.0
+      },
+      {
+        "season": 2025,
+        "week": 13,
+        "opp": "GB",
+        "v": 256.0
+      },
+      {
+        "season": 2025,
+        "week": 14,
+        "opp": "DAL",
+        "v": 309.0
+      },
+      {
+        "season": 2025,
+        "week": 15,
+        "opp": "LA",
+        "v": 338.0
+      },
+      {
+        "season": 2025,
+        "week": 16,
+        "opp": "PIT",
+        "v": 364.0
+      },
+      {
+        "season": 2025,
+        "week": 17,
+        "opp": "MIN",
+        "v": 197.0
+      },
+      {
+        "season": 2025,
+        "week": 18,
+        "opp": "CHI",
+        "v": 331.0
+      }
+    ],
+    "amon": [
+      {
+        "season": 2024,
+        "week": 1,
+        "opp": "LA",
+        "v": 13.0
+      },
+      {
+        "season": 2024,
+        "week": 2,
+        "opp": "TB",
+        "v": 119.0
+      },
+      {
+        "season": 2024,
+        "week": 3,
+        "opp": "ARI",
+        "v": 75.0
+      },
+      {
+        "season": 2024,
+        "week": 4,
+        "opp": "SEA",
+        "v": 45.0
+      },
+      {
+        "season": 2024,
+        "week": 6,
+        "opp": "DAL",
+        "v": 37.0
+      },
+      {
+        "season": 2024,
+        "week": 7,
+        "opp": "MIN",
+        "v": 112.0
+      },
+      {
+        "season": 2024,
+        "week": 8,
+        "opp": "TEN",
+        "v": 7.0
+      },
+      {
+        "season": 2024,
+        "week": 9,
+        "opp": "GB",
+        "v": 56.0
+      },
+      {
+        "season": 2024,
+        "week": 10,
+        "opp": "HOU",
+        "v": 60.0
+      },
+      {
+        "season": 2024,
+        "week": 11,
+        "opp": "JAX",
+        "v": 161.0
+      },
+      {
+        "season": 2024,
+        "week": 12,
+        "opp": "IND",
+        "v": 62.0
+      },
+      {
+        "season": 2024,
+        "week": 13,
+        "opp": "CHI",
+        "v": 73.0
+      },
+      {
+        "season": 2024,
+        "week": 14,
+        "opp": "GB",
+        "v": 43.0
+      },
+      {
+        "season": 2024,
+        "week": 15,
+        "opp": "BUF",
+        "v": 193.0
+      },
+      {
+        "season": 2024,
+        "week": 16,
+        "opp": "CHI",
+        "v": 70.0
+      },
+      {
+        "season": 2024,
+        "week": 17,
+        "opp": "SF",
+        "v": 60.0
+      },
+      {
+        "season": 2024,
+        "week": 18,
+        "opp": "MIN",
+        "v": 77.0
+      },
+      {
+        "season": 2025,
+        "week": 1,
+        "opp": "GB",
+        "v": 45.0
+      },
+      {
+        "season": 2025,
+        "week": 2,
+        "opp": "CHI",
+        "v": 115.0
+      },
+      {
+        "season": 2025,
+        "week": 3,
+        "opp": "BAL",
+        "v": 77.0
+      },
+      {
+        "season": 2025,
+        "week": 4,
+        "opp": "CLE",
+        "v": 70.0
+      },
+      {
+        "season": 2025,
+        "week": 5,
+        "opp": "CIN",
+        "v": 100.0
+      },
+      {
+        "season": 2025,
+        "week": 6,
+        "opp": "KC",
+        "v": 45.0
+      },
+      {
+        "season": 2025,
+        "week": 7,
+        "opp": "TB",
+        "v": 86.0
+      },
+      {
+        "season": 2025,
+        "week": 9,
+        "opp": "MIN",
+        "v": 97.0
+      },
+      {
+        "season": 2025,
+        "week": 10,
+        "opp": "WAS",
+        "v": 58.0
+      },
+      {
+        "season": 2025,
+        "week": 11,
+        "opp": "PHI",
+        "v": 42.0
+      },
+      {
+        "season": 2025,
+        "week": 12,
+        "opp": "NYG",
+        "v": 149.0
+      },
+      {
+        "season": 2025,
+        "week": 13,
+        "opp": "GB",
+        "v": 0.0
+      },
+      {
+        "season": 2025,
+        "week": 14,
+        "opp": "DAL",
+        "v": 92.0
+      },
+      {
+        "season": 2025,
+        "week": 15,
+        "opp": "LA",
+        "v": 164.0
+      },
+      {
+        "season": 2025,
+        "week": 16,
+        "opp": "PIT",
+        "v": 54.0
+      },
+      {
+        "season": 2025,
+        "week": 17,
+        "opp": "MIN",
+        "v": 68.0
+      },
+      {
+        "season": 2025,
+        "week": 18,
+        "opp": "CHI",
+        "v": 139.0
+      }
+    ],
+    "allen": [
+      {
+        "season": 2024,
+        "week": 1,
+        "opp": "ARI",
+        "v": 232.0
+      },
+      {
+        "season": 2024,
+        "week": 2,
+        "opp": "MIA",
+        "v": 139.0
+      },
+      {
+        "season": 2024,
+        "week": 3,
+        "opp": "JAX",
+        "v": 263.0
+      },
+      {
+        "season": 2024,
+        "week": 4,
+        "opp": "BAL",
+        "v": 180.0
+      },
+      {
+        "season": 2024,
+        "week": 5,
+        "opp": "HOU",
+        "v": 131.0
+      },
+      {
+        "season": 2024,
+        "week": 6,
+        "opp": "NYJ",
+        "v": 215.0
+      },
+      {
+        "season": 2024,
+        "week": 7,
+        "opp": "TEN",
+        "v": 323.0
+      },
+      {
+        "season": 2024,
+        "week": 8,
+        "opp": "SEA",
+        "v": 283.0
+      },
+      {
+        "season": 2024,
+        "week": 9,
+        "opp": "MIA",
+        "v": 235.0
+      },
+      {
+        "season": 2024,
+        "week": 10,
+        "opp": "IND",
+        "v": 280.0
+      },
+      {
+        "season": 2024,
+        "week": 11,
+        "opp": "KC",
+        "v": 262.0
+      },
+      {
+        "season": 2024,
+        "week": 13,
+        "opp": "SF",
+        "v": 148.0
+      },
+      {
+        "season": 2024,
+        "week": 14,
+        "opp": "LA",
+        "v": 342.0
+      },
+      {
+        "season": 2024,
+        "week": 15,
+        "opp": "DET",
+        "v": 362.0
+      },
+      {
+        "season": 2024,
+        "week": 16,
+        "opp": "NE",
+        "v": 154.0
+      },
+      {
+        "season": 2024,
+        "week": 17,
+        "opp": "NYJ",
+        "v": 182.0
+      },
+      {
+        "season": 2025,
+        "week": 1,
+        "opp": "BAL",
+        "v": 394.0
+      },
+      {
+        "season": 2025,
+        "week": 2,
+        "opp": "NYJ",
+        "v": 148.0
+      },
+      {
+        "season": 2025,
+        "week": 3,
+        "opp": "MIA",
+        "v": 213.0
+      },
+      {
+        "season": 2025,
+        "week": 4,
+        "opp": "NO",
+        "v": 209.0
+      },
+      {
+        "season": 2025,
+        "week": 5,
+        "opp": "NE",
+        "v": 253.0
+      },
+      {
+        "season": 2025,
+        "week": 6,
+        "opp": "ATL",
+        "v": 180.0
+      },
+      {
+        "season": 2025,
+        "week": 8,
+        "opp": "CAR",
+        "v": 163.0
+      },
+      {
+        "season": 2025,
+        "week": 9,
+        "opp": "KC",
+        "v": 273.0
+      },
+      {
+        "season": 2025,
+        "week": 10,
+        "opp": "MIA",
+        "v": 306.0
+      },
+      {
+        "season": 2025,
+        "week": 11,
+        "opp": "TB",
+        "v": 317.0
+      },
+      {
+        "season": 2025,
+        "week": 12,
+        "opp": "HOU",
+        "v": 253.0
+      },
+      {
+        "season": 2025,
+        "week": 13,
+        "opp": "PIT",
+        "v": 123.0
+      },
+      {
+        "season": 2025,
+        "week": 14,
+        "opp": "CIN",
+        "v": 251.0
+      },
+      {
+        "season": 2025,
+        "week": 15,
+        "opp": "NE",
+        "v": 193.0
+      },
+      {
+        "season": 2025,
+        "week": 16,
+        "opp": "CLE",
+        "v": 130.0
+      },
+      {
+        "season": 2025,
+        "week": 17,
+        "opp": "PHI",
+        "v": 262.0
+      }
+    ]
   },
   "errors": [
-    "Waiting for first GitHub Actions refresh"
+    "2026: HTTP Error 404: Not Found"
   ]
 }
