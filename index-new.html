@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gridiron Edge — NFL Prop Research</title>
+<style>
+:root{--bg:#0b0e11;--panel:#11161b;--panel2:#151c22;--line:#26313a;--text:#f5f7f8;--muted:#8d99a4;--green:#25cf79;--red:#ff5964;--yellow:#ffd23f;--blue:#55a7ff;--orange:#ff9f43}
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(135deg,#101820,#080a0c 55%);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,sans-serif}.wrap{max-width:1200px;margin:auto;padding:14px}.card{background:linear-gradient(180deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:16px}.head{padding:18px;display:flex;justify-content:space-between;align-items:center;gap:12px}.brand{font-weight:900;font-size:20px}.brand small{display:block;color:var(--muted);font-size:12px;font-weight:500;margin-top:3px}.status{font-size:11px;border:1px solid #44515a;background:#111820;color:#d5dde2;padding:7px 10px;border-radius:999px;text-align:center}.status.ok{border-color:#28563f;background:#102b20;color:#6be8a6}.status.warn{border-color:#6b5126;background:#2b2010;color:#ffd58d}
+.players,.filters,.seasons{display:flex;gap:8px;overflow:auto;padding:10px;margin-top:10px}.players button,.filters button,.seasons button,.tabs button,.refresh{border:1px solid #34414a;background:#161d23;color:#d9e0e5;border-radius:9px;padding:10px 12px;font-weight:700;white-space:nowrap;cursor:pointer}.players button.active,.filters button.active,.seasons button.active,.tabs button.active{background:#29404b;border-color:#527687;color:white}.tabs{display:flex;gap:4px;overflow:auto;margin-top:10px;padding:5px}.tabs button{background:transparent;border-color:transparent;border-radius:8px}.main{margin-top:12px;padding:18px}.topline{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.player h1{font-size:23px;margin:0}.player p{color:var(--muted);margin:5px 0}.line{font-size:14px}.line b{color:var(--yellow)}.sourceNote{font-size:11px;color:var(--muted);margin-top:7px}.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;min-width:430px}.metric{padding:12px;background:#0d1216;border:1px solid var(--line);border-radius:11px}.metric span{font-size:10px;color:var(--muted)}.metric b{display:block;font-size:20px;margin-top:4px}.controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:14px}.controls .filters,.controls .seasons{padding:0;margin:0}.controls .spacer{flex:1}.refresh{background:#14202a}.chartTitle{display:flex;justify-content:space-between;margin-top:22px;margin-bottom:8px}.chartTitle span{color:var(--muted);font-size:12px}.chart{height:360px;display:flex;align-items:stretch;gap:5px;padding:18px 8px 42px;border-top:1px solid var(--line);position:relative}.gridline{position:absolute;left:8px;right:8px;border-top:1px solid #202a31}.propLine{position:absolute;left:8px;right:8px;border-top:3px dashed var(--yellow);z-index:2}.bars{display:flex;align-items:flex-end;gap:5px;width:100%;height:100%;z-index:3}.barWrap{height:100%;flex:1;min-width:25px;display:flex;align-items:flex-end;position:relative}.bar{width:100%;border-radius:6px 6px 2px 2px;position:relative;cursor:pointer;min-height:3px}.bar.over{background:var(--green)}.bar.under{background:var(--red)}.bar i{position:absolute;top:-20px;width:100%;text-align:center;font-style:normal;font-size:10px}.barWrap small{position:absolute;bottom:-30px;width:100%;text-align:center;color:#9aa5ad;font-size:10px}.tooltip{position:fixed;display:none;background:#07090b;border:1px solid #53616b;padding:9px;border-radius:9px;font-size:12px;z-index:20;pointer-events:none}.bottom{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}.box{padding:16px}.box h3{margin:0 0 12px}.row{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-top:1px solid #242d34;color:#cdd4d9}.row span{color:var(--muted)}.view{display:none}.view.active{display:block}.empty{padding:40px 10px;text-align:center;color:#9ba6ae}.notice{margin-top:12px;padding:12px;border:1px solid #35414a;border-radius:10px;background:#0d1318;color:#aeb8bf;font-size:12px;line-height:1.45}.good{color:var(--green)}.bad{color:var(--red)}.liveLine{color:var(--green)!important}.lineMeta{font-size:11px;color:var(--muted);margin-top:4px}.lineAdjust{margin-top:12px;padding:12px;background:#0d1216;border:1px solid var(--line);border-radius:11px}.lineAdjustTop{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-bottom:8px}.lineAdjust label{font-size:11px;color:var(--muted);font-weight:700}.lineAdjust b{font-size:14px}.lineAdjust input[type=range]{width:100%;accent-color:var(--yellow)}.lineAdjust small{display:block;color:var(--muted);margin-top:6px;font-size:10px}
+table{width:100%;border-collapse:collapse;font-size:12px}th,td{text-align:left;padding:9px 8px;border-top:1px solid #242d34;white-space:nowrap}th{color:var(--muted);font-weight:600}.tablewrap{overflow:auto}.pill{display:inline-block;padding:3px 6px;border-radius:6px;font-weight:800}.pill.over{background:#123322;color:#65e6a2}.pill.under{background:#35171b;color:#ff868d}
+@media(max-width:700px){.metrics{width:100%;min-width:0;grid-template-columns:repeat(2,1fr)}.chart{height:310px}.bottom{grid-template-columns:1fr}.head{padding:14px;align-items:flex-start;flex-direction:column}.main{padding:14px}.controls{align-items:stretch}.controls .spacer{display:none}.refresh{width:100%}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="card head"><div class="brand">GRIDIRON EDGE<small>NFL Prop Research Engine</small></div><div id="dataStatus" class="status warn">LOADING NFLVERSE DATA…</div></header>
+<div class="card players" id="players"></div>
+<nav class="card tabs" id="tabs">
+<button class="active" data-tab="prop">Prop Chart</button><button data-tab="log">Game Log</button><button data-tab="splits">Trends</button><button data-tab="opponent">Opponent</button><button data-tab="model">Model</button>
+</nav>
+<section class="card main">
+<div id="prop" class="view active">
+<div class="topline"><div class="player"><h1 id="name"></h1><p id="meta"></p><div class="line"><span id="lineLabel">Prop test line:</span> <b id="line"></b> <span id="market"></span></div><div class="lineMeta" id="lineMeta"></div><div class="sourceNote" id="sourceNote"></div><div class="lineAdjust"><div class="lineAdjustTop"><label for="lineSlider">MOVE PROP LINE</label><b id="manualLineReadout"></b></div><input id="lineSlider" type="range" step="0.5"><small id="lineHitSummary"></small></div></div>
+<div class="metrics"><div class="metric"><span>HIT RATE</span><b id="hit"></b></div><div class="metric"><span>AVG</span><b id="avg"></b></div><div class="metric"><span>EDGE VS LINE</span><b id="edge"></b></div><div class="metric"><span>GAMES</span><b id="count"></b></div></div></div>
+<div class="controls"><div class="seasons" id="seasons"><button data-season="2024">2024</button><button data-season="2025" class="active">2025</button><button data-season="2026">2026</button><button data-season="all">ALL</button></div><div class="filters" id="filters"><button data-n="5">L5</button><button class="active" data-n="10">L10</button><button data-n="99">MAX</button></div><div class="spacer"></div><button class="refresh" id="refresh">↻ Refresh NFL data</button></div>
+<div class="chartTitle"><b id="chartTitle"></b><span>Tap a bar for game details</span></div><div class="chart" id="chart"></div>
+<div class="notice">NFL game statistics come from a locally stored <b>nflverse</b> snapshot that GitHub Actions refreshes automatically each day. When current sportsbook data is available, the yellow line uses the market consensus from <b>SportsGameOdds</b>. If no current prop is available, the dashboard clearly falls back to the labeled test line.</div>
+</div>
+<div id="log" class="view"></div>
+<div id="splits" class="view"></div>
+<div id="opponent" class="view"><div class="empty">Opponent matchup data is the next statistics phase after the weekly player feed is stable.</div></div>
+<div id="model" class="view"><div class="empty">Projection model comes after the historical and current-season data feed is verified.</div></div>
+</section>
+<div class="bottom"><section class="card box"><h3>Data feed</h3><div class="row"><span>Provider</span><b>nflverse</b></div><div class="row"><span>Refresh schedule</span><b>Daily automatic</b></div><div class="row"><span>Seasons requested</span><b>2024–2026</b></div><div class="row"><span>Stale-data warning</span><b class="good">Enabled</b></div><div class="row"><span>Fallback</span><b>Built in</b></div></section>
+<section class="card box"><h3>What is connected</h3><div class="row"><span>Passing yards</span><b class="good">Ready</b></div><div class="row"><span>Rushing yards</span><b class="good">Ready</b></div><div class="row"><span>Receiving yards</span><b class="good">Ready</b></div><div class="row"><span>Sportsbook prop lines</span><b id="sportsbookReady" style="color:var(--yellow)">Waiting for feed</b></div></section></div>
+</div><div class="tooltip" id="tip"></div>
+<script>
+"use strict";
+
+const PLAYERS={
+gibbs:{name:"Jahmyr Gibbs",team:"DET",pos:"RB",market:"Rush Yds",stat:"rushing_yards",line:67.5,testLine:67.5},
+goff:{name:"Jared Goff",team:"DET",pos:"QB",market:"Pass Yds",stat:"passing_yards",line:251.5,testLine:251.5},
+amon:{name:"Amon-Ra St. Brown",team:"DET",pos:"WR",market:"Rec Yds",stat:"receiving_yards",line:78.5,testLine:78.5},
+allen:{name:"Josh Allen",team:"BUF",pos:"QB",market:"Pass Yds",stat:"passing_yards",line:262.5,testLine:262.5}
+};
+
+const FALLBACK={
+gibbs:[{season:2025,week:1,opp:"GB",v:44},{season:2025,week:2,opp:"CHI",v:81},{season:2025,week:3,opp:"BAL",v:72},{season:2025,week:4,opp:"CLE",v:93},{season:2025,week:5,opp:"CIN",v:61},{season:2025,week:6,opp:"KC",v:104},{season:2025,week:7,opp:"TB",v:58},{season:2025,week:8,opp:"MIN",v:79},{season:2025,week:9,opp:"WAS",v:86},{season:2025,week:10,opp:"PHI",v:39},{season:2025,week:11,opp:"NYG",v:74},{season:2025,week:12,opp:"GB",v:91}],
+goff:[{season:2025,week:1,opp:"GB",v:240},{season:2025,week:2,opp:"CHI",v:298},{season:2025,week:3,opp:"BAL",v:266},{season:2025,week:4,opp:"CLE",v:189},{season:2025,week:5,opp:"CIN",v:315},{season:2025,week:6,opp:"KC",v:284},{season:2025,week:7,opp:"TB",v:252},{season:2025,week:8,opp:"MIN",v:275},{season:2025,week:9,opp:"WAS",v:221},{season:2025,week:10,opp:"PHI",v:303},{season:2025,week:11,opp:"NYG",v:244},{season:2025,week:12,opp:"GB",v:288}],
+amon:[{season:2025,week:1,opp:"GB",v:74},{season:2025,week:2,opp:"CHI",v:115},{season:2025,week:3,opp:"BAL",v:89},{season:2025,week:4,opp:"CLE",v:72},{season:2025,week:5,opp:"CIN",v:101},{season:2025,week:6,opp:"KC",v:63},{season:2025,week:7,opp:"TB",v:93},{season:2025,week:8,opp:"MIN",v:84},{season:2025,week:9,opp:"WAS",v:66},{season:2025,week:10,opp:"PHI",v:109}],
+allen:[{season:2025,week:1,opp:"MIA",v:291},{season:2025,week:2,opp:"NYJ",v:274},{season:2025,week:3,opp:"BAL",v:301},{season:2025,week:4,opp:"NE",v:249},{season:2025,week:5,opp:"HOU",v:319},{season:2025,week:6,opp:"ATL",v:238},{season:2025,week:7,opp:"CAR",v:282},{season:2025,week:8,opp:"KC",v:276},{season:2025,week:9,opp:"MIA",v:263},{season:2025,week:10,opp:"TB",v:305}]
+};
+
+let STORE=structuredClone(FALLBACK), current="gibbs",limit=10,season="2025",remoteSeasons=[],loading=false;
+let PROP_STORE={},propUpdated="",propFeedReady=false;
+
+function parseCSV(text){
+ const rows=[];let row=[],cell="",q=false;
+ for(let i=0;i<text.length;i++){const c=text[i],n=text[i+1];
+  if(q){if(c=='"'&&n=='"'){cell+='"';i++}else if(c=='"'){q=false}else cell+=c}
+  else if(c=='"')q=true;
+  else if(c==","){row.push(cell);cell=""}
+  else if(c=="\n"){row.push(cell);rows.push(row);row=[];cell=""}
+  else if(c!="\r")cell+=c;
+ }
+ if(cell.length||row.length){row.push(cell);rows.push(row)}
+ if(rows.length<2)return[];
+ const h=rows[0].map(x=>x.trim());
+ return rows.slice(1).filter(r=>r.length>1).map(r=>{const o={};h.forEach((k,i)=>o[k]=r[i]??"");return o});
+}
+
+function clean(s){return String(s||"").trim().toLowerCase().replace(/[^a-z0-9]/g,"")}
+function playerName(r){return r.player_display_name||r.player_name||r.player||r.name||""}
+function isRegular(r){
+ const t=String(r.season_type||"").toUpperCase();
+ return !t || t==="REG" || t==="REGULAR";
+}
+function num(x){const n=Number(x);return Number.isFinite(n)?n:0}
+
+async function fetchLocalData(){
+ const res=await fetch("./data/nfl_weekly.json?ts="+Date.now(),{cache:"no-store"});
+ if(!res.ok)throw new Error("Local NFL data HTTP "+res.status);
+ return await res.json();
+}
+
+async function loadNFL(){
+ if(loading)return;loading=true;
+ const st=document.getElementById("dataStatus");
+ st.className="status warn";st.textContent="LOADING LOCAL NFL DATA…";
+ try{
+  const payload=await fetchLocalData();
+  let usable=0;
+  for(const id of Object.keys(PLAYERS)){
+   const games=payload?.players?.[id];
+   if(Array.isArray(games)&&games.length){STORE[id]=games;usable++}
+  }
+  remoteSeasons=Array.isArray(payload.seasons_loaded)?payload.seasons_loaded:[];
+  const updated=payload.updated_at?new Date(payload.updated_at):null;
+  const ageHours=updated?((Date.now()-updated.getTime())/36e5):9999;
+  const stamp=updated?updated.toLocaleString():"unknown";
+  document.getElementById("sourceNote").dataset.updated=stamp;
+  if(usable){
+   if(ageHours<=48){
+    st.className="status ok";
+    st.textContent="NFL DATA CURRENT • "+stamp;
+   }else{
+    st.className="status warn";
+    st.textContent="NFL DATA STALE • "+stamp;
+   }
+  }else{
+   st.className="status warn";st.textContent="FALLBACK DATA • LOCAL FEED EMPTY";
+  }
+ }catch(err){
+  st.className="status warn";st.textContent="FALLBACK DATA • LOCAL FEED UNAVAILABLE";
+ }
+ loading=false;render();
+}
+
+
+async function loadProps(){
+ try{
+  const res=await fetch("./data/sportsbook_props.json?ts="+Date.now(),{cache:"no-store"});
+  if(!res.ok)throw new Error("Sportsbook data HTTP "+res.status);
+  const payload=await res.json();
+  PROP_STORE=payload.players||{};
+  propUpdated=payload.updated_at?new Date(payload.updated_at).toLocaleString():"";
+  let found=0;
+  for(const [id,p] of Object.entries(PLAYERS)){
+   const prop=PROP_STORE[id];
+   const line=Number(prop?.book_consensus_line ?? prop?.consensus_line);
+   if(Number.isFinite(line)&&line>0){
+    p.line=line;
+    found++;
+   }else{
+    p.line=p.testLine;
+   }
+  }
+  propFeedReady=found>0;
+  const badge=document.getElementById("sportsbookReady");
+  if(propFeedReady){
+   badge.textContent=found+" player props live";
+   badge.className="good";
+   badge.style.color="";
+  }else{
+   badge.textContent="No current props";
+   badge.style.color="var(--yellow)";
+  }
+ }catch(err){
+  propFeedReady=false;
+  Object.values(PLAYERS).forEach(p=>p.line=p.testLine);
+  const badge=document.getElementById("sportsbookReady");
+  badge.textContent="Feed unavailable";
+  badge.style.color="var(--yellow)";
+ }
+ render();
+}
+
+function propForCurrent(){
+ return PROP_STORE[current]||null;
+}
+
+const players=document.getElementById("players");
+[["gibbs","Jahmyr Gibbs"],["goff","Jared Goff"],["amon","Amon-Ra St. Brown"],["allen","Josh Allen"]].forEach(([id,label],i)=>{const b=document.createElement("button");b.textContent=label;b.dataset.id=id;if(i===0)b.className="active";players.appendChild(b)});
+
+function selectedGames(){
+ const all=STORE[current]||[];
+ const filtered=season==="all"?all:all.filter(g=>String(g.season)===season);
+ return filtered.slice(-Math.min(limit,filtered.length));
+}
+
+function render(){
+ const p=PLAYERS[current],games=selectedGames(),vals=games.map(g=>g.v);
+ document.getElementById("name").textContent=p.name;document.getElementById("meta").textContent=`${p.team} • ${p.pos}`;
+ const liveProp=propForCurrent(),liveBookLine=Number(liveProp?.book_consensus_line ?? liveProp?.consensus_line),hasLive=Number.isFinite(liveBookLine)&&liveBookLine>0;
+ document.getElementById("line").textContent=p.line;document.getElementById("market").textContent=p.market;
+ document.getElementById("line").classList.toggle("liveLine",hasLive);
+ document.getElementById("lineLabel").textContent=hasLive?"Sportsbook consensus:":"Prop test line:";
+ const books=Array.isArray(liveProp?.books)?liveProp.books:[];
+ document.getElementById("lineMeta").textContent=hasLive?`SportsGameOdds${propUpdated?" • updated "+propUpdated:""}${books.length?" • "+books.length+" books":""}`:"No current sportsbook prop loaded — using test line.";
+ const updated=document.getElementById("sourceNote").dataset.updated||"";document.getElementById("sourceNote").textContent=remoteSeasons.length?`Local nflverse snapshot loaded. Seasons: ${remoteSeasons.join(", ")}.${updated?" Last successful refresh: "+updated:""}`:"Showing built-in fallback while local NFL data is unavailable.";
+ const slider=document.getElementById("lineSlider");
+ const allVals=(STORE[current]||[]).map(g=>g.v).filter(Number.isFinite);
+ const sliderMin=allVals.length?Math.max(0,Math.floor(Math.min(...allVals)/5)*5-10):0;
+ const sliderMax=allVals.length?Math.ceil(Math.max(...allVals)/5)*5+10:Math.max(100,p.line*1.5);
+ slider.min=sliderMin;slider.max=sliderMax;slider.value=p.line;
+ document.getElementById("manualLineReadout").textContent=p.line+" "+p.market;
+ if(vals.length){
+  const avg=vals.reduce((a,b)=>a+b,0)/vals.length,hits=vals.filter(v=>v>=p.line).length;
+  document.getElementById("hit").textContent=Math.round(hits/vals.length*100)+"% · "+hits+"/"+vals.length;document.getElementById("avg").textContent=avg.toFixed(1);
+  document.getElementById("lineHitSummary").textContent=hits+" of "+vals.length+" selected games reached "+p.line+"+ "+p.market+".";
+  document.getElementById("edge").textContent=(avg-p.line>=0?"+":"")+(avg-p.line).toFixed(1);document.getElementById("count").textContent=vals.length;
+ }else{["hit","avg","edge"].forEach(id=>document.getElementById(id).textContent="—");document.getElementById("count").textContent="0";document.getElementById("lineHitSummary").textContent="No games loaded for this selection."}
+ document.getElementById("chartTitle").textContent=`${p.market} — ${season==="all"?"All loaded seasons":season}`;
+ renderChart(p,games);renderLog(p,games);renderTrends(p);
+}
+
+function renderChart(p,games){
+ const chart=document.getElementById("chart");chart.innerHTML="";
+ if(!games.length){chart.innerHTML=`<div class="empty" style="width:100%">No ${season==="all"?"":season+" "}games loaded for this player yet.</div>`;return}
+ const vals=games.map(g=>g.v),max=Math.max(...vals,p.line)*1.15;
+ [25,50,75].forEach(n=>{const d=document.createElement("div");d.className="gridline";d.style.bottom=n+"%";chart.appendChild(d)});
+ const line=document.createElement("div");line.className="propLine";line.style.bottom=(p.line/max*100)+"%";chart.appendChild(line);
+ const bars=document.createElement("div");bars.className="bars";
+ games.forEach((g,i)=>{const w=document.createElement("div");w.className="barWrap";const b=document.createElement("div");b.className="bar "+(g.v>=p.line?"over":"under");b.style.height=(g.v/max*100)+"%";b.dataset.i=i;b.innerHTML="<i>"+g.v+"</i>";const s=document.createElement("small");s.textContent=g.opp;w.append(b,s);bars.appendChild(w)});
+ chart.appendChild(bars);
+}
+
+function renderLog(p,games){
+ const rows=[...games].reverse().map(g=>`<tr><td>${g.season}</td><td>W${g.week}</td><td>${g.opp}</td><td><b>${g.v}</b></td><td><span class="pill ${g.v>=p.line?"over":"under"}">${g.v>=p.line?"OVER":"UNDER"}</span></td></tr>`).join("");
+ document.getElementById("log").innerHTML=`<div class="box"><h3>${p.name} game log</h3><div class="tablewrap"><table><thead><tr><th>Season</th><th>Week</th><th>Opp</th><th>${p.market}</th><th>vs ${p.line}</th></tr></thead><tbody>${rows||'<tr><td colspan="5">No games loaded.</td></tr>'}</tbody></table></div></div>`;
+}
+
+function renderTrends(p){
+ const all=STORE[current]||[];
+ function block(y){
+  const a=all.filter(g=>String(g.season)===String(y)), vals=a.map(g=>g.v);
+  if(!vals.length)return `<div class="row"><span>${y}</span><b>—</b></div>`;
+  const avg=vals.reduce((x,z)=>x+z,0)/vals.length,hr=Math.round(vals.filter(v=>v>=p.line).length/vals.length*100);
+  return `<div class="row"><span>${y} • ${vals.length} games</span><b>${avg.toFixed(1)} avg • ${hr}% over current line</b></div>`;
+ }
+ document.getElementById("splits").innerHTML=`<div class="box"><h3>${p.name} multi-season trends</h3>${[2024,2025,2026].map(block).join("")}</div>`;
+}
+
+players.addEventListener("click",e=>{if(e.target.tagName!=="BUTTON")return;current=e.target.dataset.id;players.querySelectorAll("button").forEach(b=>b.classList.toggle("active",b===e.target));render()});
+document.getElementById("filters").addEventListener("click",e=>{if(e.target.tagName!=="BUTTON")return;limit=Number(e.target.dataset.n);document.querySelectorAll("#filters button").forEach(b=>b.classList.toggle("active",b===e.target));render()});
+document.getElementById("seasons").addEventListener("click",e=>{if(e.target.tagName!=="BUTTON")return;season=e.target.dataset.season;document.querySelectorAll("#seasons button").forEach(b=>b.classList.toggle("active",b===e.target));render()});
+document.getElementById("tabs").addEventListener("click",e=>{if(e.target.tagName!=="BUTTON")return;document.querySelectorAll(".tabs button").forEach(b=>b.classList.toggle("active",b===e.target));document.querySelectorAll(".view").forEach(v=>v.classList.toggle("active",v.id===e.target.dataset.tab))});
+document.getElementById("lineSlider").addEventListener("input",e=>{PLAYERS[current].line=Number(e.target.value);render()});
+document.getElementById("refresh").addEventListener("click",loadNFL);
+const tip=document.getElementById("tip");
+document.getElementById("chart").addEventListener("click",e=>{const b=e.target.closest(".bar");if(!b)return;const p=PLAYERS[current],g=selectedGames()[Number(b.dataset.i)];if(!g)return;tip.innerHTML=`<b>${p.name}</b><br>${g.season} Week ${g.week} vs ${g.opp}<br>${p.market}: ${g.v}<br>${g.v>=p.line?"OVER":"UNDER"} ${p.line}`;tip.style.left=Math.min(e.clientX+10,innerWidth-190)+"px";tip.style.top=Math.max(10,e.clientY-80)+"px";tip.style.display="block";setTimeout(()=>tip.style.display="none",2200)});
+
+render();
+loadNFL();
+loadProps();
+</script>
+</body></html>
