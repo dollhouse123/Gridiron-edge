@@ -1,0 +1,38 @@
+name: Update Sportsbook Props
+
+on:
+  schedule:
+    - cron: "10 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch NFL sportsbook props
+        env:
+          SPORTSGAMEODDS_API_KEY: ${{ secrets.SPORTSGAMEODDS_API_KEY }}
+        run: python scripts/update_sportsbook_props.py
+
+      - name: Commit updated props
+        run: |
+          git config user.name "gridiron-edge-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/sportsbook_props.json
+          if git diff --cached --quiet; then
+            echo "No prop changes"
+          else
+            git commit -m "Auto-update sportsbook props"
+            git push
+          fi
