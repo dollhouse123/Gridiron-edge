@@ -1,0 +1,36 @@
+name: Update NFL Data
+
+on:
+  schedule:
+    - cron: "15 10 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Update nflverse data
+        run: python scripts/update_nfl_data.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "gridiron-edge-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/nfl_weekly.json
+          if git diff --cached --quiet; then
+            echo "No data changes"
+          else
+            git commit -m "Auto-update NFL data"
+            git push
+          fi
