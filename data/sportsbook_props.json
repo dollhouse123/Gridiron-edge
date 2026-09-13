@@ -1,6 +1,6 @@
 {
   "source": "SportsGameOdds",
-  "updated_at": "2026-09-12T18:23:29.684514+00:00",
+  "updated_at": "2026-09-13T00:30:36.123182+00:00",
   "status": "ok",
   "players": {
     "gibbs": {
@@ -8,33 +8,33 @@
       "stat": "rushing_yards",
       "consensus_line": 91.5,
       "fair_line": 91.5,
-      "book_consensus_line": 83.5,
+      "book_consensus_line": 84.5,
       "fair_odds": "+100",
-      "book_odds": "-117",
+      "book_odds": "-115",
       "books": [
         {
           "book": "betmgm",
           "line": 84.5,
           "odds": "-115",
-          "updated_at": "2026-09-12T18:18:56.357Z"
+          "updated_at": "2026-09-13T00:21:58.728Z"
         },
         {
           "book": "bovada",
           "line": 83.5,
-          "odds": "-123",
-          "updated_at": "2026-09-12T18:18:58.988Z"
+          "odds": "-122",
+          "updated_at": "2026-09-13T00:24:02.950Z"
         },
         {
           "book": "espnbet",
           "line": 83.5,
           "odds": "-120",
-          "updated_at": "2026-09-12T18:19:07.126Z"
+          "updated_at": "2026-09-13T00:22:32.268Z"
         },
         {
           "book": "fanduel",
           "line": 83.5,
           "odds": "-113",
-          "updated_at": "2026-09-12T18:18:46.357Z"
+          "updated_at": "2026-09-13T00:23:01.228Z"
         }
       ],
       "event_id": "GDwagyH61uAKzVoXEbxK",
@@ -46,32 +46,38 @@
       "consensus_line": 274.5,
       "fair_line": 274.5,
       "book_consensus_line": 261.5,
-      "fair_odds": "+132",
+      "fair_odds": "+136",
       "book_odds": "-112",
       "books": [
+        {
+          "book": "betmgm",
+          "line": 262.5,
+          "odds": "-115",
+          "updated_at": "2026-09-13T00:21:58.728Z"
+        },
         {
           "book": "bovada",
           "line": 261.5,
           "odds": "-115",
-          "updated_at": "2026-09-12T18:18:58.988Z"
+          "updated_at": "2026-09-13T00:24:02.950Z"
         },
         {
           "book": "caesars",
           "line": 261.5,
           "odds": "-114",
-          "updated_at": "2026-09-12T18:18:58.988Z"
+          "updated_at": "2026-09-13T00:24:02.950Z"
         },
         {
           "book": "espnbet",
           "line": 264.5,
           "odds": "-110",
-          "updated_at": "2026-09-12T18:19:07.126Z"
+          "updated_at": "2026-09-13T00:22:32.268Z"
         },
         {
           "book": "fanduel",
           "line": 261.5,
           "odds": "-113",
-          "updated_at": "2026-09-12T18:18:46.357Z"
+          "updated_at": "2026-09-13T00:23:01.228Z"
         }
       ],
       "event_id": "GDwagyH61uAKzVoXEbxK",
@@ -82,33 +88,39 @@
       "stat": "receiving_yards",
       "consensus_line": 83.5,
       "fair_line": 83.5,
-      "book_consensus_line": 76.5,
+      "book_consensus_line": 77.5,
       "fair_odds": "+100",
-      "book_odds": "-116",
+      "book_odds": "-114",
       "books": [
         {
           "book": "bovada",
-          "line": 76.5,
-          "odds": "-116",
-          "updated_at": "2026-09-12T18:18:58.988Z"
+          "line": 77.5,
+          "odds": "-115",
+          "updated_at": "2026-09-13T00:22:10.228Z"
         },
         {
           "book": "caesars",
-          "line": 76.5,
+          "line": 77.5,
           "odds": "-115",
-          "updated_at": "2026-09-12T18:18:58.988Z"
+          "updated_at": "2026-09-13T00:24:02.950Z"
+        },
+        {
+          "book": "draftkings",
+          "line": 77.5,
+          "odds": "-110",
+          "updated_at": "2026-09-13T00:22:40.228Z"
         },
         {
           "book": "espnbet",
           "line": 79.5,
           "odds": "-110",
-          "updated_at": "2026-09-12T18:19:07.126Z"
+          "updated_at": "2026-09-13T00:22:32.268Z"
         },
         {
           "book": "fanduel",
           "line": 77.5,
           "odds": "-113",
-          "updated_at": "2026-09-12T18:18:46.357Z"
+          "updated_at": "2026-09-13T00:23:01.228Z"
         }
       ],
       "event_id": "GDwagyH61uAKzVoXEbxK",
@@ -125,39 +137,39 @@
       "books": [
         {
           "book": "betmgm",
-          "line": 216.5,
-          "odds": "-135",
-          "updated_at": "2026-09-12T18:18:14.211Z"
+          "line": 218.5,
+          "odds": "-125",
+          "updated_at": "2026-09-13T00:22:50.028Z"
         },
         {
           "book": "bovada",
-          "line": 223.5,
-          "odds": "-115",
-          "updated_at": "2026-09-12T18:18:21.211Z"
+          "line": 224.5,
+          "odds": "-114",
+          "updated_at": "2026-09-13T00:24:02.950Z"
         },
         {
           "book": "caesars",
           "line": 223.5,
           "odds": "-114",
-          "updated_at": "2026-09-12T18:18:58.988Z"
+          "updated_at": "2026-09-13T00:24:02.950Z"
         },
         {
           "book": "draftkings",
           "line": 223.5,
           "odds": "-112",
-          "updated_at": "2026-09-12T18:18:40.211Z"
+          "updated_at": "2026-09-13T00:22:29.028Z"
         },
         {
           "book": "espnbet",
           "line": 224.5,
           "odds": "-115",
-          "updated_at": "2026-09-12T18:18:53.362Z"
+          "updated_at": "2026-09-13T00:22:57.096Z"
         },
         {
           "book": "fanduel",
           "line": 223.5,
           "odds": "-113",
-          "updated_at": "2026-09-12T18:18:45.711Z"
+          "updated_at": "2026-09-13T00:22:39.528Z"
         }
       ],
       "event_id": "J5HTln3CEGxm5DE8iDDD",
