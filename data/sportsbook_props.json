@@ -1,6 +1,6 @@
 {
   "source": "SportsGameOdds",
-  "updated_at": "2026-09-21T06:30:41.945277+00:00",
+  "updated_at": "2026-09-21T12:26:45.978153+00:00",
   "status": "ok",
   "players": {
     "gibbs": {
@@ -42,9 +42,9 @@
     "allen": {
       "market_name": "Josh Allen Passing Yards Over/Under",
       "stat": "passing_yards",
-      "consensus_line": 246.5,
-      "fair_line": 246.5,
-      "book_consensus_line": 246.5,
+      "consensus_line": 234.5,
+      "fair_line": 234.5,
+      "book_consensus_line": 234.5,
       "fair_odds": "+100",
       "book_odds": "+100",
       "books": [],
