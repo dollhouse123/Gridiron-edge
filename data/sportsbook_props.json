@@ -1,13 +1,13 @@
 {
   "source": "SportsGameOdds",
-  "updated_at": "2026-09-22T06:28:14.949822+00:00",
+  "updated_at": "2026-09-22T12:28:14.633548+00:00",
   "status": "ok",
   "players": {
     "gibbs": {
       "market_name": "Jahmyr Gibbs Rushing Yards Over/Under",
       "stat": "rushing_yards",
-      "consensus_line": 84.5,
-      "fair_line": 84.5,
+      "consensus_line": 84.0,
+      "fair_line": 84.0,
       "book_consensus_line": 87.5,
       "fair_odds": "+100",
       "book_odds": "+100",
@@ -30,11 +30,11 @@
     "amon": {
       "market_name": "Amon-Ra St. Brown Receiving Yards Over/Under",
       "stat": "receiving_yards",
-      "consensus_line": 81.0,
-      "fair_line": 81.0,
-      "book_consensus_line": 78.5,
-      "fair_odds": "+100",
-      "book_odds": "-116",
+      "consensus_line": 79.5,
+      "fair_line": 79.5,
+      "book_consensus_line": 77.5,
+      "fair_odds": "-101",
+      "book_odds": "-108",
       "books": [],
       "event_id": "FOSE1zBUNvmhacWfDJh5",
       "start_time": null
@@ -42,17 +42,35 @@
     "allen": {
       "market_name": "Josh Allen Passing Yards Over/Under",
       "stat": "passing_yards",
-      "consensus_line": 241.0,
-      "fair_line": 241.0,
+      "consensus_line": 246.0,
+      "fair_line": 246.0,
       "book_consensus_line": 240.5,
       "fair_odds": "+100",
       "book_odds": "-114",
       "books": [
         {
+          "book": "bovada",
+          "line": 241.5,
+          "odds": "-115",
+          "updated_at": "2026-09-22T12:21:49.209Z"
+        },
+        {
+          "book": "caesars",
+          "line": 239.5,
+          "odds": "-114",
+          "updated_at": "2026-09-22T12:21:40.709Z"
+        },
+        {
+          "book": "draftkings",
+          "line": 241.5,
+          "odds": "-113",
+          "updated_at": "2026-09-22T12:24:51.026Z"
+        },
+        {
           "book": "fanduel",
           "line": 240.5,
           "odds": "-114",
-          "updated_at": "2026-09-22T06:25:53.842Z"
+          "updated_at": "2026-09-22T12:25:02.998Z"
         }
       ],
       "event_id": "VgLWOqsMZA96fIe0KZSP",
