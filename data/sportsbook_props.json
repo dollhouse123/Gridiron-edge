@@ -1,13 +1,13 @@
 {
   "source": "SportsGameOdds",
-  "updated_at": "2026-09-29T00:31:14.723282+00:00",
+  "updated_at": "2026-09-29T06:30:10.780371+00:00",
   "status": "ok",
   "players": {
     "gibbs": {
       "market_name": "Jahmyr Gibbs Rushing Yards Over/Under",
       "stat": "rushing_yards",
-      "consensus_line": 92.0,
-      "fair_line": 92.0,
+      "consensus_line": 92.5,
+      "fair_line": 92.5,
       "book_consensus_line": 92.5,
       "fair_odds": "+100",
       "book_odds": "+100",
@@ -18,8 +18,8 @@
     "goff": {
       "market_name": "Jared Goff Passing Yards Over/Under",
       "stat": "passing_yards",
-      "consensus_line": 260.0,
-      "fair_line": 260.0,
+      "consensus_line": 269.5,
+      "fair_line": 269.5,
       "book_consensus_line": 261.5,
       "fair_odds": "+100",
       "book_odds": "+100",
@@ -30,8 +30,8 @@
     "amon": {
       "market_name": "Amon-Ra St. Brown Receiving Yards Over/Under",
       "stat": "receiving_yards",
-      "consensus_line": 76.5,
-      "fair_line": 76.5,
+      "consensus_line": 81.0,
+      "fair_line": 81.0,
       "book_consensus_line": 78.5,
       "fair_odds": "+100",
       "book_odds": "+100",
@@ -42,12 +42,19 @@
     "allen": {
       "market_name": "Josh Allen Passing Yards Over/Under",
       "stat": "passing_yards",
-      "consensus_line": 229.5,
-      "fair_line": 229.5,
-      "book_consensus_line": 227.5,
+      "consensus_line": 241.5,
+      "fair_line": 241.5,
+      "book_consensus_line": 249.5,
       "fair_odds": "+100",
-      "book_odds": "+100",
-      "books": [],
+      "book_odds": "+106",
+      "books": [
+        {
+          "book": "fanduel",
+          "line": 241.5,
+          "odds": "-114",
+          "updated_at": "2026-09-29T06:27:51.187Z"
+        }
+      ],
       "event_id": "a1nMeHIfJC27CQg1Li1A",
       "start_time": null
     }
