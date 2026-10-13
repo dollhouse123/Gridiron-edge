@@ -1,6 +1,19 @@
 {
   "source": "SportsGameOdds",
-  "updated_at": "2026-10-13T14:05:43.666778+00:00",
+  "updated_at": "2026-10-13T22:39:55.933306+00:00",
   "status": "ok",
-  "players": {}
+  "players": {
+    "allen": {
+      "market_name": "Josh Allen 1st Quarter Passing Yards Over/Under",
+      "stat": "passing_yards",
+      "consensus_line": 49.5,
+      "fair_line": 49.5,
+      "book_consensus_line": 49.5,
+      "fair_odds": "+100",
+      "book_odds": "+100",
+      "books": [],
+      "event_id": "FdLLy8mJOzX0mvUOQrfQ",
+      "start_time": null
+    }
+  }
 }
