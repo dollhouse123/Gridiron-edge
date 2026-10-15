@@ -1,6 +1,6 @@
 {
   "source": "SportsGameOdds",
-  "updated_at": "2026-10-14T21:37:41.348850+00:00",
+  "updated_at": "2026-10-15T04:31:40.451848+00:00",
   "status": "ok",
   "players": {
     "allen": {
@@ -16,31 +16,37 @@
           "book": "betmgm",
           "line": 237.5,
           "odds": "-115",
-          "updated_at": "2026-10-14T21:30:35.551Z"
+          "updated_at": "2026-10-15T04:24:59.037Z"
         },
         {
           "book": "bovada",
           "line": 238.5,
           "odds": "-115",
-          "updated_at": "2026-10-14T21:30:52.051Z"
+          "updated_at": "2026-10-15T04:23:40.537Z"
+        },
+        {
+          "book": "caesars",
+          "line": 238.5,
+          "odds": "-114",
+          "updated_at": "2026-10-15T04:23:40.759Z"
         },
         {
           "book": "draftkings",
           "line": 238.5,
           "odds": "-112",
-          "updated_at": "2026-10-14T21:28:34.173Z"
+          "updated_at": "2026-10-15T04:22:38.335Z"
         },
         {
           "book": "espnbet",
           "line": 239.5,
           "odds": "-110",
-          "updated_at": "2026-10-14T21:30:34.375Z"
+          "updated_at": "2026-10-15T04:24:34.601Z"
         },
         {
           "book": "fanduel",
           "line": 238.5,
           "odds": "-114",
-          "updated_at": "2026-10-14T21:29:10.304Z"
+          "updated_at": "2026-10-15T04:23:03.380Z"
         }
       ],
       "event_id": "FdLLy8mJOzX0mvUOQrfQ",
