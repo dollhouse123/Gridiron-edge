@@ -1,46 +1,34 @@
 {
   "source": "SportsGameOdds",
-  "updated_at": "2026-10-17T20:32:00.502428+00:00",
+  "updated_at": "2026-10-18T04:24:59.589977+00:00",
   "status": "ok",
   "players": {
     "allen": {
-      "market_name": "Josh Allen Passing Yards Over/Under",
+      "market_name": "Josh Allen 1st Quarter Passing Yards Over/Under",
       "stat": "passing_yards",
-      "consensus_line": 247.0,
-      "fair_line": 247.0,
-      "book_consensus_line": 239.5,
-      "fair_odds": "+100",
-      "book_odds": "-114",
+      "consensus_line": 56.5,
+      "fair_line": 56.5,
+      "book_consensus_line": 52.5,
+      "fair_odds": "+101",
+      "book_odds": "+100",
       "books": [
         {
-          "book": "betmgm",
-          "line": 235.5,
-          "odds": "-115",
-          "updated_at": "2026-10-17T20:25:56.453Z"
-        },
-        {
-          "book": "caesars",
-          "line": 238.5,
-          "odds": "-114",
-          "updated_at": "2026-10-17T20:26:26.049Z"
-        },
-        {
           "book": "draftkings",
-          "line": 239.5,
+          "line": 56.5,
           "odds": "-112",
-          "updated_at": "2026-10-17T20:24:54.843Z"
+          "updated_at": "2026-10-18T04:14:49.513Z"
         },
         {
           "book": "espnbet",
-          "line": 239.5,
-          "odds": "-120",
-          "updated_at": "2026-10-17T20:26:37.116Z"
+          "line": 49.5,
+          "odds": "-160",
+          "updated_at": "2026-10-18T04:16:41.392Z"
         },
         {
           "book": "fanduel",
-          "line": 239.5,
+          "line": 52.5,
           "odds": "-114",
-          "updated_at": "2026-10-17T20:25:01.246Z"
+          "updated_at": "2026-10-18T04:17:18.342Z"
         }
       ],
       "event_id": "FdLLy8mJOzX0mvUOQrfQ",
