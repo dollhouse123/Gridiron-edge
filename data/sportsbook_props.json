@@ -1,41 +1,92 @@
 {
   "source": "SportsGameOdds",
-  "updated_at": "2026-10-20T04:42:50.921705+00:00",
+  "updated_at": "2026-10-20T11:29:48.529410+00:00",
   "status": "ok",
   "players": {
     "gibbs": {
       "market_name": "Jahmyr Gibbs Rushing Yards Over/Under",
       "stat": "rushing_yards",
-      "consensus_line": 92.5,
-      "fair_line": 92.5,
-      "book_consensus_line": 92.5,
-      "fair_odds": "+100",
-      "book_odds": "+100",
-      "books": [],
+      "consensus_line": 97.5,
+      "fair_line": 97.5,
+      "book_consensus_line": 93.5,
+      "fair_odds": "+110",
+      "book_odds": "-115",
+      "books": [
+        {
+          "book": "draftkings",
+          "line": 94.5,
+          "odds": "-111",
+          "updated_at": "2026-10-20T11:22:13.131Z"
+        },
+        {
+          "book": "fanduel",
+          "line": 93.5,
+          "odds": "-114",
+          "updated_at": "2026-10-20T11:22:23.476Z"
+        }
+      ],
       "event_id": "ZUIKy20VpGRapZXLWHDC",
       "start_time": null
     },
     "goff": {
       "market_name": "Jared Goff Passing Yards Over/Under",
       "stat": "passing_yards",
-      "consensus_line": 281.0,
-      "fair_line": 281.0,
+      "consensus_line": 284.5,
+      "fair_line": 284.5,
       "book_consensus_line": 278.5,
-      "fair_odds": "+100",
-      "book_odds": "+100",
-      "books": [],
+      "fair_odds": "+110",
+      "book_odds": "-113",
+      "books": [
+        {
+          "book": "caesars",
+          "line": 278.5,
+          "odds": "-113",
+          "updated_at": "2026-10-20T11:22:59.023Z"
+        },
+        {
+          "book": "draftkings",
+          "line": 278.5,
+          "odds": "-112",
+          "updated_at": "2026-10-20T11:22:13.131Z"
+        },
+        {
+          "book": "fanduel",
+          "line": 278.5,
+          "odds": "-114",
+          "updated_at": "2026-10-20T11:22:23.476Z"
+        }
+      ],
       "event_id": "ZUIKy20VpGRapZXLWHDC",
       "start_time": null
     },
     "amon": {
       "market_name": "Amon-Ra St. Brown Receiving Yards Over/Under",
       "stat": "receiving_yards",
-      "consensus_line": 86.0,
-      "fair_line": 86.0,
-      "book_consensus_line": 79.5,
-      "fair_odds": "+100",
-      "book_odds": "-116",
-      "books": [],
+      "consensus_line": 82.5,
+      "fair_line": 82.5,
+      "book_consensus_line": 78.5,
+      "fair_odds": "+104",
+      "book_odds": "-114",
+      "books": [
+        {
+          "book": "caesars",
+          "line": 77.5,
+          "odds": "-113",
+          "updated_at": "2026-10-20T11:22:59.023Z"
+        },
+        {
+          "book": "draftkings",
+          "line": 78.5,
+          "odds": "-110",
+          "updated_at": "2026-10-20T11:22:13.131Z"
+        },
+        {
+          "book": "fanduel",
+          "line": 78.5,
+          "odds": "-114",
+          "updated_at": "2026-10-20T11:22:23.476Z"
+        }
+      ],
       "event_id": "ZUIKy20VpGRapZXLWHDC",
       "start_time": null
     }
