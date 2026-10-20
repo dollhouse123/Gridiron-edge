@@ -1,6 +1,6 @@
 {
   "source": "SportsGameOdds",
-  "updated_at": "2026-10-19T22:18:27.094114+00:00",
+  "updated_at": "2026-10-20T04:42:50.921705+00:00",
   "status": "ok",
   "players": {
     "gibbs": {
@@ -18,9 +18,9 @@
     "goff": {
       "market_name": "Jared Goff Passing Yards Over/Under",
       "stat": "passing_yards",
-      "consensus_line": 282.5,
-      "fair_line": 282.5,
-      "book_consensus_line": 282.5,
+      "consensus_line": 281.0,
+      "fair_line": 281.0,
+      "book_consensus_line": 278.5,
       "fair_odds": "+100",
       "book_odds": "+100",
       "books": [],
@@ -30,11 +30,11 @@
     "amon": {
       "market_name": "Amon-Ra St. Brown Receiving Yards Over/Under",
       "stat": "receiving_yards",
-      "consensus_line": 82.5,
-      "fair_line": 82.5,
-      "book_consensus_line": 82.5,
+      "consensus_line": 86.0,
+      "fair_line": 86.0,
+      "book_consensus_line": 79.5,
       "fair_odds": "+100",
-      "book_odds": "+100",
+      "book_odds": "-116",
       "books": [],
       "event_id": "ZUIKy20VpGRapZXLWHDC",
       "start_time": null
