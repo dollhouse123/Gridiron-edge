@@ -1,6 +1,6 @@
 {
   "source": "SportsGameOdds",
-  "updated_at": "2026-10-22T04:36:56.683233+00:00",
+  "updated_at": "2026-10-22T11:44:51.195084+00:00",
   "status": "ok",
   "players": {
     "gibbs": {
@@ -9,32 +9,32 @@
       "consensus_line": 99.5,
       "fair_line": 99.5,
       "book_consensus_line": 93.5,
-      "fair_odds": "+117",
+      "fair_odds": "+115",
       "book_odds": "-114",
       "books": [
         {
           "book": "bovada",
           "line": 93.5,
-          "odds": "-114",
-          "updated_at": "2026-10-22T04:30:39.557Z"
+          "odds": "-115",
+          "updated_at": "2026-10-22T11:36:00.579Z"
         },
         {
-          "book": "caesars",
+          "book": "draftkings",
           "line": 93.5,
-          "odds": "-114",
-          "updated_at": "2026-10-22T04:30:39.557Z"
+          "odds": "-113",
+          "updated_at": "2026-10-22T11:34:15.938Z"
         },
         {
           "book": "espnbet",
           "line": 94.5,
           "odds": "-110",
-          "updated_at": "2026-10-22T04:30:49.393Z"
+          "updated_at": "2026-10-22T11:36:58.108Z"
         },
         {
           "book": "fanduel",
           "line": 93.5,
           "odds": "-114",
-          "updated_at": "2026-10-22T04:28:59.312Z"
+          "updated_at": "2026-10-22T11:35:02.195Z"
         }
       ],
       "event_id": "ZUIKy20VpGRapZXLWHDC",
@@ -43,41 +43,41 @@
     "goff": {
       "market_name": "Jared Goff Passing Yards Over/Under",
       "stat": "passing_yards",
-      "consensus_line": 284.5,
-      "fair_line": 284.5,
+      "consensus_line": 284.0,
+      "fair_line": 284.0,
       "book_consensus_line": 278.5,
-      "fair_odds": "+110",
-      "book_odds": "-115",
+      "fair_odds": "+100",
+      "book_odds": "-114",
       "books": [
         {
           "book": "betmgm",
           "line": 277.5,
           "odds": "-115",
-          "updated_at": "2026-10-22T04:31:08.864Z"
+          "updated_at": "2026-10-22T11:36:41.579Z"
         },
         {
           "book": "bovada",
           "line": 277.5,
           "odds": "-115",
-          "updated_at": "2026-10-22T04:31:11.364Z"
+          "updated_at": "2026-10-22T11:36:00.579Z"
         },
         {
           "book": "caesars",
           "line": 277.5,
           "odds": "-113",
-          "updated_at": "2026-10-22T04:30:39.557Z"
+          "updated_at": "2026-10-22T11:36:37.330Z"
         },
         {
           "book": "draftkings",
           "line": 277.5,
           "odds": "-112",
-          "updated_at": "2026-10-22T04:28:21.316Z"
+          "updated_at": "2026-10-22T11:34:15.938Z"
         },
         {
           "book": "fanduel",
           "line": 278.5,
           "odds": "-114",
-          "updated_at": "2026-10-22T04:28:59.312Z"
+          "updated_at": "2026-10-22T11:35:02.195Z"
         }
       ],
       "event_id": "ZUIKy20VpGRapZXLWHDC",
@@ -86,35 +86,35 @@
     "amon": {
       "market_name": "Amon-Ra St. Brown Receiving Yards Over/Under",
       "stat": "receiving_yards",
-      "consensus_line": 83.5,
-      "fair_line": 83.5,
+      "consensus_line": 85.0,
+      "fair_line": 85.0,
       "book_consensus_line": 79.5,
-      "fair_odds": "+110",
-      "book_odds": "-114",
+      "fair_odds": "+100",
+      "book_odds": "-115",
       "books": [
         {
           "book": "betmgm",
           "line": 79.5,
           "odds": "-115",
-          "updated_at": "2026-10-22T04:31:08.864Z"
+          "updated_at": "2026-10-22T11:36:41.579Z"
         },
         {
           "book": "draftkings",
-          "line": 81.5,
-          "odds": "-111",
-          "updated_at": "2026-10-22T04:28:21.316Z"
+          "line": 80.5,
+          "odds": "-114",
+          "updated_at": "2026-10-22T11:34:15.938Z"
         },
         {
           "book": "espnbet",
           "line": 79.5,
           "odds": "-120",
-          "updated_at": "2026-10-22T04:30:49.393Z"
+          "updated_at": "2026-10-22T11:36:58.108Z"
         },
         {
           "book": "fanduel",
           "line": 78.5,
           "odds": "-114",
-          "updated_at": "2026-10-22T04:28:59.312Z"
+          "updated_at": "2026-10-22T11:35:02.195Z"
         }
       ],
       "event_id": "ZUIKy20VpGRapZXLWHDC",
