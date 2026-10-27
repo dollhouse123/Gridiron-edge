@@ -1,16 +1,16 @@
 {
   "source": "SportsGameOdds",
-  "updated_at": "2026-10-26T22:36:43.910932+00:00",
+  "updated_at": "2026-10-27T04:57:29.152294+00:00",
   "status": "ok",
   "players": {
     "gibbs": {
       "market_name": "Jahmyr Gibbs Rushing Yards Over/Under",
       "stat": "rushing_yards",
-      "consensus_line": 84.0,
-      "fair_line": 84.0,
+      "consensus_line": 84.5,
+      "fair_line": 84.5,
       "book_consensus_line": 80.5,
       "fair_odds": "+100",
-      "book_odds": "-108",
+      "book_odds": "+100",
       "books": [],
       "event_id": "RPPJyHedgadm7Ccby3Jt",
       "start_time": null
@@ -34,7 +34,7 @@
       "fair_line": 87.0,
       "book_consensus_line": 83.5,
       "fair_odds": "+100",
-      "book_odds": "+100",
+      "book_odds": "-108",
       "books": [],
       "event_id": "RPPJyHedgadm7Ccby3Jt",
       "start_time": null
