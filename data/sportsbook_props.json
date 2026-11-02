@@ -1,6 +1,31 @@
 {
   "source": "SportsGameOdds",
-  "updated_at": "2026-11-02T05:55:24.958186+00:00",
+  "updated_at": "2026-11-02T15:40:57.626100+00:00",
   "status": "ok",
-  "players": {}
+  "players": {
+    "goff": {
+      "market_name": "Jared Goff Passing Yards Over/Under",
+      "stat": "passing_yards",
+      "consensus_line": 269.5,
+      "fair_line": 269.5,
+      "book_consensus_line": 269.5,
+      "fair_odds": "+100",
+      "book_odds": "+100",
+      "books": [],
+      "event_id": "7cOTIdkaeQmaQn5VrPUz",
+      "start_time": null
+    },
+    "allen": {
+      "market_name": "Josh Allen Passing Yards Over/Under",
+      "stat": "passing_yards",
+      "consensus_line": 226.5,
+      "fair_line": 226.5,
+      "book_consensus_line": 226.5,
+      "fair_odds": "+100",
+      "book_odds": "+100",
+      "books": [],
+      "event_id": "IAJWZrNrFFj9gXlbtCzR",
+      "start_time": null
+    }
+  }
 }
