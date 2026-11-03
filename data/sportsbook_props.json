@@ -1,6 +1,6 @@
 {
   "source": "SportsGameOdds",
-  "updated_at": "2026-11-03T14:04:08.364118+00:00",
+  "updated_at": "2026-11-03T23:16:02.803958+00:00",
   "status": "ok",
   "players": {
     "gibbs": {
@@ -30,9 +30,9 @@
     "amon": {
       "market_name": "Amon-Ra St. Brown Receiving Yards Over/Under",
       "stat": "receiving_yards",
-      "consensus_line": 81.5,
-      "fair_line": 81.5,
-      "book_consensus_line": 81.5,
+      "consensus_line": 80.5,
+      "fair_line": 80.5,
+      "book_consensus_line": 80.5,
       "fair_odds": "+100",
       "book_odds": "+100",
       "books": [],
@@ -44,7 +44,7 @@
       "stat": "passing_yards",
       "consensus_line": 236.5,
       "fair_line": 236.5,
-      "book_consensus_line": 234.5,
+      "book_consensus_line": 236.5,
       "fair_odds": "+100",
       "book_odds": "+100",
       "books": [],
