@@ -1,29 +1,67 @@
 {
   "source": "SportsGameOdds",
-  "updated_at": "2026-11-03T23:16:02.803958+00:00",
+  "updated_at": "2026-11-04T06:08:38.824978+00:00",
   "status": "ok",
   "players": {
     "gibbs": {
       "market_name": "Jahmyr Gibbs Rushing Yards Over/Under",
       "stat": "rushing_yards",
-      "consensus_line": 100.5,
-      "fair_line": 100.5,
-      "book_consensus_line": 100.5,
-      "fair_odds": "+100",
-      "book_odds": "+100",
-      "books": [],
+      "consensus_line": 104.5,
+      "fair_line": 104.5,
+      "book_consensus_line": 101.5,
+      "fair_odds": "+127",
+      "book_odds": "-114",
+      "books": [
+        {
+          "book": "caesars",
+          "line": 100.5,
+          "odds": "-113",
+          "updated_at": "2026-11-04T06:01:30.000Z"
+        },
+        {
+          "book": "draftkings",
+          "line": 100.5,
+          "odds": "-114",
+          "updated_at": "2026-11-04T06:08:26.191Z"
+        },
+        {
+          "book": "fanduel",
+          "line": 101.5,
+          "odds": "-114",
+          "updated_at": "2026-11-04T06:08:12.537Z"
+        }
+      ],
       "event_id": "7cOTIdkaeQmaQn5VrPUz",
       "start_time": null
     },
     "goff": {
       "market_name": "Jared Goff Passing Yards Over/Under",
       "stat": "passing_yards",
-      "consensus_line": 252.5,
-      "fair_line": 252.5,
-      "book_consensus_line": 252.5,
+      "consensus_line": 261.5,
+      "fair_line": 261.5,
+      "book_consensus_line": 261.5,
       "fair_odds": "+100",
-      "book_odds": "+100",
-      "books": [],
+      "book_odds": "-114",
+      "books": [
+        {
+          "book": "caesars",
+          "line": 259.5,
+          "odds": "-114",
+          "updated_at": "2026-11-04T06:01:28.000Z"
+        },
+        {
+          "book": "draftkings",
+          "line": 258.5,
+          "odds": "-112",
+          "updated_at": "2026-11-04T06:08:26.191Z"
+        },
+        {
+          "book": "fanduel",
+          "line": 261.5,
+          "odds": "-114",
+          "updated_at": "2026-11-04T06:08:12.537Z"
+        }
+      ],
       "event_id": "7cOTIdkaeQmaQn5VrPUz",
       "start_time": null
     },
@@ -32,10 +70,29 @@
       "stat": "receiving_yards",
       "consensus_line": 80.5,
       "fair_line": 80.5,
-      "book_consensus_line": 80.5,
+      "book_consensus_line": 76.5,
       "fair_odds": "+100",
-      "book_odds": "+100",
-      "books": [],
+      "book_odds": "-113",
+      "books": [
+        {
+          "book": "caesars",
+          "line": 75.5,
+          "odds": "-113",
+          "updated_at": "2026-11-04T06:01:29.000Z"
+        },
+        {
+          "book": "draftkings",
+          "line": 75.5,
+          "odds": "-112",
+          "updated_at": "2026-11-04T06:08:26.191Z"
+        },
+        {
+          "book": "fanduel",
+          "line": 76.5,
+          "odds": "-114",
+          "updated_at": "2026-11-04T06:08:12.537Z"
+        }
+      ],
       "event_id": "7cOTIdkaeQmaQn5VrPUz",
       "start_time": null
     },
@@ -46,8 +103,27 @@
       "fair_line": 236.5,
       "book_consensus_line": 236.5,
       "fair_odds": "+100",
-      "book_odds": "+100",
-      "books": [],
+      "book_odds": "-113",
+      "books": [
+        {
+          "book": "caesars",
+          "line": 236.5,
+          "odds": "-115",
+          "updated_at": "2026-11-04T06:00:30.000Z"
+        },
+        {
+          "book": "draftkings",
+          "line": 236.5,
+          "odds": "-112",
+          "updated_at": "2026-11-04T06:08:26.191Z"
+        },
+        {
+          "book": "fanduel",
+          "line": 236.5,
+          "odds": "-114",
+          "updated_at": "2026-11-04T06:08:12.537Z"
+        }
+      ],
       "event_id": "IAJWZrNrFFj9gXlbtCzR",
       "start_time": null
     }
