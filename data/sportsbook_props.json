@@ -1,52 +1,52 @@
 {
   "source": "SportsGameOdds",
-  "updated_at": "2026-11-10T19:40:37.389714+00:00",
+  "updated_at": "2026-11-11T06:05:21.957845+00:00",
   "status": "ok",
   "players": {
     "gibbs": {
       "market_name": "Jahmyr Gibbs Rushing Yards Over/Under",
       "stat": "rushing_yards",
-      "consensus_line": 99.5,
-      "fair_line": 99.5,
+      "consensus_line": 100.5,
+      "fair_line": 100.5,
       "book_consensus_line": 97.5,
-      "fair_odds": "+108",
-      "book_odds": "-106",
+      "fair_odds": "+120",
+      "book_odds": "-113",
       "books": [
         {
           "book": "betmgm",
-          "line": 95.5,
+          "line": 98.5,
           "odds": "-115",
-          "updated_at": "2026-11-10T19:39:01.252Z"
+          "updated_at": "2026-11-11T06:04:19.623Z"
         },
         {
           "book": "bovada",
           "line": 98.5,
           "odds": "-115",
-          "updated_at": "2026-11-10T19:24:57.000Z"
+          "updated_at": "2026-11-11T05:44:28.000Z"
         },
         {
           "book": "caesars",
           "line": 97.5,
           "odds": "-113",
-          "updated_at": "2026-11-10T19:27:40.000Z"
+          "updated_at": "2026-11-11T06:01:54.000Z"
         },
         {
           "book": "draftkings",
           "line": 98.5,
           "odds": "-114",
-          "updated_at": "2026-11-10T19:40:19.216Z"
+          "updated_at": "2026-11-11T06:05:17.931Z"
         },
         {
           "book": "espnbet",
           "line": 99.5,
           "odds": "-115",
-          "updated_at": "2026-11-10T19:30:58.000Z"
+          "updated_at": "2026-11-11T06:00:14.000Z"
         },
         {
           "book": "fanduel",
           "line": 97.5,
           "odds": "-114",
-          "updated_at": "2026-11-10T19:40:09.449Z"
+          "updated_at": "2026-11-11T06:04:14.149Z"
         }
       ],
       "event_id": "BScircwEZgHPZ79hJZsT",
@@ -58,44 +58,44 @@
       "consensus_line": 274.5,
       "fair_line": 274.5,
       "book_consensus_line": 268.5,
-      "fair_odds": "+187",
+      "fair_odds": "+118",
       "book_odds": "-115",
       "books": [
         {
           "book": "betmgm",
-          "line": 263.5,
+          "line": 264.5,
           "odds": "-115",
-          "updated_at": "2026-11-10T19:39:01.252Z"
+          "updated_at": "2026-11-11T06:04:19.623Z"
         },
         {
           "book": "bovada",
-          "line": 269.5,
+          "line": 267.5,
           "odds": "-115",
-          "updated_at": "2026-11-10T19:24:57.000Z"
+          "updated_at": "2026-11-11T05:44:28.000Z"
         },
         {
           "book": "caesars",
-          "line": 268.5,
+          "line": 267.5,
           "odds": "-115",
-          "updated_at": "2026-11-10T19:27:40.000Z"
+          "updated_at": "2026-11-11T06:01:53.000Z"
         },
         {
           "book": "draftkings",
-          "line": 269.5,
+          "line": 267.5,
           "odds": "-113",
-          "updated_at": "2026-11-10T19:40:19.216Z"
+          "updated_at": "2026-11-11T06:05:17.931Z"
         },
         {
           "book": "espnbet",
           "line": 268.5,
           "odds": "-115",
-          "updated_at": "2026-11-10T19:30:58.000Z"
+          "updated_at": "2026-11-11T06:00:14.000Z"
         },
         {
           "book": "fanduel",
           "line": 268.5,
           "odds": "-114",
-          "updated_at": "2026-11-10T19:40:09.449Z"
+          "updated_at": "2026-11-11T06:04:14.149Z"
         }
       ],
       "event_id": "BScircwEZgHPZ79hJZsT",
@@ -107,44 +107,44 @@
       "consensus_line": 79.5,
       "fair_line": 79.5,
       "book_consensus_line": 78.5,
-      "fair_odds": "+104",
-      "book_odds": "-114",
+      "fair_odds": "+103",
+      "book_odds": "-117",
       "books": [
         {
           "book": "betmgm",
-          "line": 78.5,
+          "line": 77.5,
           "odds": "-115",
-          "updated_at": "2026-11-10T19:39:01.252Z"
+          "updated_at": "2026-11-11T06:04:19.623Z"
         },
         {
           "book": "bovada",
           "line": 77.5,
           "odds": "-115",
-          "updated_at": "2026-11-10T19:24:57.000Z"
+          "updated_at": "2026-11-11T05:44:28.000Z"
         },
         {
           "book": "caesars",
-          "line": 78.5,
+          "line": 77.5,
           "odds": "-114",
-          "updated_at": "2026-11-10T19:27:40.000Z"
+          "updated_at": "2026-11-11T06:01:53.000Z"
         },
         {
           "book": "draftkings",
-          "line": 78.5,
-          "odds": "-112",
-          "updated_at": "2026-11-10T19:40:19.216Z"
+          "line": 77.5,
+          "odds": "-113",
+          "updated_at": "2026-11-11T06:05:17.931Z"
         },
         {
           "book": "espnbet",
           "line": 79.5,
           "odds": "-110",
-          "updated_at": "2026-11-10T19:30:58.000Z"
+          "updated_at": "2026-11-11T06:00:14.000Z"
         },
         {
           "book": "fanduel",
           "line": 78.5,
           "odds": "-114",
-          "updated_at": "2026-11-10T19:40:09.449Z"
+          "updated_at": "2026-11-11T06:04:14.149Z"
         }
       ],
       "event_id": "BScircwEZgHPZ79hJZsT",
@@ -153,12 +153,31 @@
     "allen": {
       "market_name": "Josh Allen Passing Yards Over/Under",
       "stat": "passing_yards",
-      "consensus_line": 233.5,
-      "fair_line": 233.5,
-      "book_consensus_line": 233.5,
+      "consensus_line": 228.5,
+      "fair_line": 228.5,
+      "book_consensus_line": 228.5,
       "fair_odds": "+100",
-      "book_odds": "+100",
-      "books": [],
+      "book_odds": "-115",
+      "books": [
+        {
+          "book": "bovada",
+          "line": 228.5,
+          "odds": "-115",
+          "updated_at": "2026-11-11T05:44:28.000Z"
+        },
+        {
+          "book": "caesars",
+          "line": 227.5,
+          "odds": "-115",
+          "updated_at": "2026-11-11T06:01:06.000Z"
+        },
+        {
+          "book": "draftkings",
+          "line": 228.5,
+          "odds": "-113",
+          "updated_at": "2026-11-11T06:05:14.338Z"
+        }
+      ],
       "event_id": "latEkmzm6AcVJf91fOko",
       "start_time": null
     }
