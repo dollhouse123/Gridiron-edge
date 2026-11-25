@@ -1,6 +1,6 @@
 {
   "source": "SportsGameOdds",
-  "updated_at": "2026-11-25T08:22:37.770643+00:00",
+  "updated_at": "2026-11-25T21:37:12.463376+00:00",
   "status": "ok",
   "players": {
     "gibbs": {
@@ -10,43 +10,43 @@
       "fair_line": 94.5,
       "book_consensus_line": 92.5,
       "fair_odds": "+108",
-      "book_odds": "-114",
+      "book_odds": "-113",
       "books": [
         {
           "book": "betmgm",
-          "line": 92.5,
+          "line": 91.5,
           "odds": "-115",
-          "updated_at": "2026-11-25T08:21:42.262Z"
+          "updated_at": "2026-11-25T21:36:58.927Z"
         },
         {
           "book": "bovada",
           "line": 92.5,
-          "odds": "-112",
-          "updated_at": "2026-11-25T08:21:45.758Z"
+          "odds": "-115",
+          "updated_at": "2026-11-25T21:34:10.000Z"
         },
         {
           "book": "caesars",
           "line": 92.5,
           "odds": "-114",
-          "updated_at": "2026-11-25T08:02:33.000Z"
+          "updated_at": "2026-11-25T21:23:41.000Z"
         },
         {
           "book": "draftkings",
           "line": 92.5,
           "odds": "-114",
-          "updated_at": "2026-11-25T08:22:15.331Z"
+          "updated_at": "2026-11-25T21:36:49.195Z"
         },
         {
           "book": "espnbet",
           "line": 94.5,
           "odds": "-105",
-          "updated_at": "2026-11-25T08:21:36.000Z"
+          "updated_at": "2026-11-25T21:34:39.000Z"
         },
         {
           "book": "fanduel",
           "line": 92.5,
-          "odds": "-114",
-          "updated_at": "2026-11-25T08:22:20.355Z"
+          "odds": "-113",
+          "updated_at": "2026-11-25T21:36:51.938Z"
         }
       ],
       "event_id": "V0LXADVRzlSh8elq65us",
@@ -57,45 +57,45 @@
       "stat": "passing_yards",
       "consensus_line": 280.5,
       "fair_line": 280.5,
-      "book_consensus_line": 280.5,
-      "fair_odds": "+100",
-      "book_odds": "-114",
+      "book_consensus_line": 278.5,
+      "fair_odds": "+101",
+      "book_odds": "-111",
       "books": [
         {
           "book": "betmgm",
-          "line": 279.5,
+          "line": 277.5,
           "odds": "-115",
-          "updated_at": "2026-11-25T08:21:42.262Z"
+          "updated_at": "2026-11-25T21:36:58.927Z"
         },
         {
           "book": "bovada",
-          "line": 280.5,
-          "odds": "-114",
-          "updated_at": "2026-11-25T08:21:45.758Z"
+          "line": 278.5,
+          "odds": "-115",
+          "updated_at": "2026-11-25T21:34:10.000Z"
         },
         {
           "book": "caesars",
           "line": 279.5,
           "odds": "-114",
-          "updated_at": "2026-11-25T08:19:32.000Z"
+          "updated_at": "2026-11-25T21:32:43.000Z"
         },
         {
           "book": "draftkings",
-          "line": 277.5,
-          "odds": "-111",
-          "updated_at": "2026-11-25T08:22:15.331Z"
+          "line": 278.5,
+          "odds": "-112",
+          "updated_at": "2026-11-25T21:36:49.195Z"
         },
         {
           "book": "espnbet",
           "line": 279.5,
           "odds": "-115",
-          "updated_at": "2026-11-25T08:21:36.000Z"
+          "updated_at": "2026-11-25T21:34:39.000Z"
         },
         {
           "book": "fanduel",
           "line": 280.5,
-          "odds": "-114",
-          "updated_at": "2026-11-25T08:22:20.355Z"
+          "odds": "-113",
+          "updated_at": "2026-11-25T21:36:51.938Z"
         }
       ],
       "event_id": "V0LXADVRzlSh8elq65us",
@@ -104,47 +104,47 @@
     "amon": {
       "market_name": "Amon-Ra St. Brown Receiving Yards Over/Under",
       "stat": "receiving_yards",
-      "consensus_line": 90.5,
-      "fair_line": 90.5,
-      "book_consensus_line": 84.5,
-      "fair_odds": "+132",
-      "book_odds": "-112",
+      "consensus_line": 87.5,
+      "fair_line": 87.5,
+      "book_consensus_line": 82.5,
+      "fair_odds": "+122",
+      "book_odds": "-110",
       "books": [
         {
           "book": "betmgm",
-          "line": 87.5,
+          "line": 84.5,
           "odds": "-115",
-          "updated_at": "2026-11-25T08:21:42.262Z"
+          "updated_at": "2026-11-25T21:36:58.927Z"
         },
         {
           "book": "bovada",
-          "line": 87.5,
-          "odds": "-114",
-          "updated_at": "2026-11-25T08:21:45.758Z"
+          "line": 83.5,
+          "odds": "-115",
+          "updated_at": "2026-11-25T21:34:10.000Z"
         },
         {
           "book": "caesars",
-          "line": 85.5,
-          "odds": "-115",
-          "updated_at": "2026-11-25T08:02:34.000Z"
+          "line": 82.5,
+          "odds": "-111",
+          "updated_at": "2026-11-25T21:23:42.000Z"
         },
         {
           "book": "draftkings",
-          "line": 87.5,
-          "odds": "-111",
-          "updated_at": "2026-11-25T08:22:15.331Z"
+          "line": 83.5,
+          "odds": "-113",
+          "updated_at": "2026-11-25T21:36:49.195Z"
         },
         {
           "book": "espnbet",
           "line": 84.5,
-          "odds": "-125",
-          "updated_at": "2026-11-25T08:21:36.000Z"
+          "odds": "-105",
+          "updated_at": "2026-11-25T21:34:39.000Z"
         },
         {
           "book": "fanduel",
-          "line": 84.5,
-          "odds": "-114",
-          "updated_at": "2026-11-25T08:22:20.355Z"
+          "line": 82.5,
+          "odds": "-113",
+          "updated_at": "2026-11-25T21:36:51.938Z"
         }
       ],
       "event_id": "V0LXADVRzlSh8elq65us",
@@ -153,47 +153,47 @@
     "allen": {
       "market_name": "Josh Allen Passing Yards Over/Under",
       "stat": "passing_yards",
-      "consensus_line": 231.5,
-      "fair_line": 231.5,
-      "book_consensus_line": 227.5,
-      "fair_odds": "+100",
+      "consensus_line": 224.5,
+      "fair_line": 224.5,
+      "book_consensus_line": 219.5,
+      "fair_odds": "+111",
       "book_odds": "-114",
       "books": [
         {
           "book": "betmgm",
-          "line": 223.5,
+          "line": 219.5,
           "odds": "-115",
-          "updated_at": "2026-11-25T08:21:42.262Z"
+          "updated_at": "2026-11-25T21:36:26.389Z"
         },
         {
           "book": "bovada",
-          "line": 224.5,
-          "odds": "-114",
-          "updated_at": "2026-11-25T08:21:45.758Z"
+          "line": 219.5,
+          "odds": "-115",
+          "updated_at": "2026-11-25T21:35:31.000Z"
         },
         {
           "book": "caesars",
-          "line": 225.5,
+          "line": 218.5,
           "odds": "-105",
-          "updated_at": "2026-11-25T08:01:58.000Z"
+          "updated_at": "2026-11-25T21:23:08.000Z"
         },
         {
           "book": "draftkings",
-          "line": 224.5,
-          "odds": "-111",
-          "updated_at": "2026-11-25T08:22:15.331Z"
+          "line": 219.5,
+          "odds": "-113",
+          "updated_at": "2026-11-25T21:36:49.195Z"
         },
         {
           "book": "espnbet",
-          "line": 224.5,
-          "odds": "-105",
-          "updated_at": "2026-11-25T08:07:13.000Z"
+          "line": 214.5,
+          "odds": "-115",
+          "updated_at": "2026-11-25T21:34:42.000Z"
         },
         {
           "book": "fanduel",
-          "line": 227.5,
+          "line": 215.5,
           "odds": "-114",
-          "updated_at": "2026-11-25T08:22:20.355Z"
+          "updated_at": "2026-11-25T21:36:51.938Z"
         }
       ],
       "event_id": "4BqA9r4LZNAnWph1F0eO",
